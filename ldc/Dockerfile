@@ -1,4 +1,4 @@
-FROM aliak00/dmd
+FROM aliak00/dmd:2.071.2
 
 MAINTAINER Ali Akhtarzada <ali.akhtarzada@gmail.com>
 
