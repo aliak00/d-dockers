@@ -1,11 +1,11 @@
-FROM aliak00/dmd:2.071.2
+FROM aliak00/dmd:2.085.0
 
 MAINTAINER Ali Akhtarzada <ali.akhtarzada@gmail.com>
 
 WORKDIR /tmp
 
 # LDC version setup
-ARG LDC_VERSION=1.0.0
+ARG LDC_VERSION=1.14.0
 ARG LDC_NAME="ldc2-$LDC_VERSION-linux-x86_64"
 ARG LDC_PATH="/opt/$LDC_NAME"
 
